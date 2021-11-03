@@ -40,5 +40,6 @@ plt.ylabel(r"log(pente)")
 
 plt.errorbar(X, y, xerr=0., yerr=0., fmt='o')
 plt.plot(X, function(X, popt[0], popt[1]))
+plt.savefig('graph3.png')
 plt.show()
 
