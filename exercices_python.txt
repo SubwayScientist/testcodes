@@ -1,0 +1,20 @@
+voici un exercice qui va te permettre d'intégrer plusieurs choses dont on a parlé jusqu'à présent. Surtout l'annexe A de ma thèse combinée à la programmation python avec Numpy, et les valeurs propres.
+
+Je vais commencer l'exercice ici et on va batir avec le temps. Première chose est que tu dois écrire la matrice A.20 de mon annexe A dans l'ordinateur pour les paramètres U=8, epsilon = 0.5, theta = 1.0 et mu variable.
+
+a.
+Tu dois faire un programme qui calcule la valeur propre minimum (le ground state) de la matrice en fonction de mu. Tu peux la faire en python ou en c/c++. Pour python tu dois utiliser numpy, pour c/c++ tu dois utiliser Lapack. C'est un bon exercice dans tous les cas.
+
+b.
+Une chose que tu vas te rendre compte est que si tu calcule les valeurs propres de la grosse matrice, ça va être les mêmes valeurs propres que ceux des petites matrices (les petits blocs de la grosse matrice). Si tu réussi l'exercice, je peux déjà te dire le prochain step: faire une fonction qui trouve dans quel bloc est la valeur propre minimal en fonction de mu et trouver l'interval de valeur de mu pour lequel la valeur propre la plus basse est dans un bloc précis.
+(indice : deux boucles for)
+
+c.
+Tu dois aussi trouver le vecteur du ground state, en fonction de mu. (indice : np.eigh)
+
+d.
+Tu dois faire une fonction qui retourne la quantité d'électron (N) et le spin en z (Sz) en fonction de mu.
+
+________________________________________________________________________________
+
+*important : pratiquer liste et boucle for, ainsi que numpy et class.*
